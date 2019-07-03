@@ -1,0 +1,34 @@
+{
+  "name": "sendmailinputsabc23",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/purna-s/sendmailinputsabc23",  
+  "title": "sendmailinputsabc23",
+  "description": "Send mail to recipient",
+  "author": "Purna S <purna.sadanala@prowesssoft.com>",
+
+  "inputs":[
+    
+    {
+      "name": "arcpnt",
+      "type": "string",
+      "required": true
+    },
+	{
+      "name": "bsub",
+      "type": "string",
+      "required": true
+    },
+	{
+      "name": "cbody",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
