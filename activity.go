@@ -73,7 +73,7 @@ func (a *sendmailinputsabc23) Eval(ctx activity.Context) (done bool, err error) 
 	activityLog.Debugf("Activity has sent the mail Successfully")
 	fmt.Println("Activity has sent the mail Successfully")
 
-	ctx.SetOutput("output", to)
+	ctx.SetOutput("output", "Mail_Sent_Successfully")
 
 	return true, nil
 }

@@ -51,7 +51,7 @@ func TestEval(t *testing.T) {
 
 	//setup attrs
 	tc.SetInput("arcpnt", "purna.sadanala@prowesssoft.com")
-	tc.SetInput("bsub", "Q Subscriber_Down!")
+	tc.SetInput("bsub", "Q_Subscriber_Down!")
 	tc.SetInput("cbody", "Subscriber_for_Queue_is_down.")
 
 	done, err := act.Eval(tc)

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "type": "flogo:activity",
   "ref": "github.com/purna-s/sendmailinputsabc23",  
-  "title": "sendmailinputsabc23",
+  "title": "sendmailinputsabc23_b",
   "description": "Send mail to recipient",
   "author": "Purna S <purna.sadanala@prowesssoft.com>",
 
