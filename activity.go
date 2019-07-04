@@ -35,6 +35,7 @@ func (a *sendmailinputsabc23) Eval(ctx activity.Context) (done bool, err error) 
 	arcpnt := ctx.GetInput("Arcpnt").(string)
 	bsub := ctx.GetInput("Bsub").(string)
 	cbody := ctx.GetInput("Cbody").(string)
+	wsHost := context.GetInput("server").(string)
 	
 	
 	// Set up authentication information.

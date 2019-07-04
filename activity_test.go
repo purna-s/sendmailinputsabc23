@@ -50,9 +50,9 @@ func TestEval(t *testing.T) {
 	tc := test.NewTestActivityContext(getActivityMetadata())
 
 	//setup attrs
-	tc.SetInput("arcpnt", "purna.sadanala@prowesssoft.com")
-	tc.SetInput("bsub", "Q_Subscriber_Down!")
-	tc.SetInput("cbody", "Subscriber_for_Queue_is_down.")
+	tc.SetInput("Arcpnt", "purna.sadanala@prowesssoft.com")
+	tc.SetInput("Bsub", "Q_Subscriber_Down!")
+	tc.SetInput("Cbody", "Subscriber_for_Queue_is_down.")
 
 	done, err := act.Eval(tc)
 	if !done {
